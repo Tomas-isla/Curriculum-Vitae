@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+/*header*/
+
+header{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+
+
+header img{
+    height: 200px;
+}
+
+
+header div{
+    background-color: #C4C4C4;
+    width: 100vw;
+    height: 100px;
+}
+
+
+h1{
+    font-size: 5rem;
+    text-align: center;
+    color: #005677;
+}
+
+/*main*/
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre-mi{
+    background-color: rgba (255, 0, 0, .5);
+    border-radius: 20px;
+    border: 2px solid #C4C4C4;
+    width: 100px;
+    height: 35px;
+    color: white;
+    transition: all .5s ease-in-out;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+}
+
+.sobre-mi a{
+    color: black;
+    text-decoration: none;
+}
+
+.sobre-mi:hover{
+    background-color:#C4C4C4;
+    color: #005677;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+h2{
+    color: #005677;
+    background-color: #C4C4C4;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+ul{
+    margin: 30px;
+    list-style: none;
+}
+
+span{
+    margin-right: 5px;
+    color: #005677;
+}
+
+
+.ul-formacion{
+    list-style:disc ;
+}
+
+.span{
+    font-weight: bold;
+    text-decoration: underline;
+    color: black;
+}
+
+p{
+    margin: 20px;
+    font-weight: bold;
+    width: 50%;
+}
+
+.Fecha{
+    font-weight: bold;
+    margin: 0;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.abajo-fecha{
+    margin: 0;
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+.abajo-fecha-2{
+    font-weight: normal;
+}
+
+
+/*footer*/
+
+footer{
+    background-color:#005677;
+    color:#C4C4C4;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a{
+    color: #C4C4C4;
+    text-decoration: none;
+    margin: 5px;
+}
+
+footer p{
+    width: 100%;    
+}
+
